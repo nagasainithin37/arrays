@@ -1,3 +1,78 @@
+# Array insertion , deletion and modification
+
+## Insertion
+
+### insert at begin
+
+a=[50,60]
+a.unshift(10,20,30)
+
+#### output:
+
+##### a=[10,20,30,50,60]
+
+### index based insertion
+
+a.splice(3,0,40)
+
+#### output:
+
+##### a=[10,20,30,40,50,60]
+
+### insert at end
+
+a.push(70,80)
+
+#### output:
+
+##### a=[10,20,30,40,50,60,70,80]
+
+## Deletion
+
+### delete begin
+
+a.shift()
+
+#### output:
+
+##### a=[20,30,40,50,60,70,80]
+
+a.shift()
+
+#### output:
+
+##### a=[30,40,50,60,70,80]
+
+### deletion at end
+
+a.pop()
+
+#### output:
+
+##### a=[30,40,50,60,70]
+
+a.pop()
+
+#### output:
+
+##### a=[30,40,50,60]
+
+### index based deletion
+
+a.splice(3,1)
+
+#### output:
+
+##### a=[30,40,50,70]
+
+## Modification
+
+a.splice(2,1,60)
+
+#### output:
+
+##### a=[30,40,60,70]
+
 # Array Functions
 
 ## Filter :
